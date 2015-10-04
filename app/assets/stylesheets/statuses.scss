@@ -2,9 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.new_post_button {
-	padding-bottom: 10px;
-}
 
 .status {
 	border-bottom: solid 1px #CCC;
@@ -18,7 +15,7 @@
 .status.hover {
 	background: #F0F0F0;
 }
- s
+
 .status .admin {
 	display: none;
 }
@@ -26,4 +23,3 @@
 .status.hover .admin {
 	display:inline;
 }
-
