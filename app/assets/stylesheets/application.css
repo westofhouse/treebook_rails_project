@@ -21,3 +21,16 @@ body {
 .new_post_button {
 	padding-bottom: 10px;
 }
+
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:55px;   /* Height of the footer */
+   background: lightgrey;
+}
+
+footer p {
+	padding-top: 25px;
+	text-align: center;
+}
