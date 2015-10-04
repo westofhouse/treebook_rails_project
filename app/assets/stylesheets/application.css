@@ -22,13 +22,21 @@ body {
 	padding-bottom: 10px;
 }
 
-footer {
-   position:absolute;
+#footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+    background: lightgrey;
+}
+/*footer {
+   position: absolute;
    bottom:0;
    width:100%;
    height:55px;   /* Height of the footer */
-   background: lightgrey;
-}
+ /*  background: lightgrey;
+}  */
 
 footer p {
 	padding-top: 25px;
